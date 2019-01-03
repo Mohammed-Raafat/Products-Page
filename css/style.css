@@ -1,0 +1,267 @@
+*
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*Header*/
+.header
+{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    border-bottom: 2px solid gray;
+}
+
+.content
+{
+    width: 1300px;
+    margin: auto;
+    padding: 30px 0 30px 0;
+}
+
+.header .content .logo
+{
+    float: left;
+}
+
+.header .content .logo h2
+{
+    color: white;
+}
+
+.header .content .navbar
+{
+    float: right;
+}
+
+.header .content .navbar ul
+{
+    list-style-type: none;
+}
+
+.header .content .navbar ul li
+{
+    float: left;
+    padding-left: 30px;
+}
+
+.header .content .navbar ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header .content .navbar ul li a:hover
+{
+    color: grey;
+}
+
+/*Body 1*/
+.body1
+{
+    width: 100%;
+    height: 500px;
+    padding-top: 80px;
+    background-image: url(../images/background.png);
+    background-size: cover;
+}
+
+.body1 .content
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.body1 .content p
+{
+    font-family: cursive;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.body1 .content button
+{
+    border: 0;
+    border-radius: 5px;
+    background: deeppink;
+    font-family:cursive;
+    font-size: 20px;
+    color: whitesmoke;
+    height: 50px;
+    width: 200px;
+    outline: none;
+}
+
+.body1 .content button:hover
+{
+    color: black;
+}
+
+/* Body 2 */
+.body2
+{
+    width: 100%;
+    height: 1000px;
+    background-color: #222;
+}
+
+.body2 .content .part
+{
+    float: left;
+    margin: 40px;
+    width: 27%;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.body2 .content .part img
+{
+    width: 100%       
+}
+
+.body2 .content .part p
+{
+    margin: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.body2 .content .part button
+{
+    margin: 20px;
+    border: 0;
+    border-radius: 5px;
+    background: deeppink;
+    font-family:cursive;
+    font-size: 15px;
+    color: whitesmoke;
+    height: 40px;
+    width: 150px;
+    outline: none;
+}
+
+/*Body3*/
+.body3
+{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    margin: auto; 
+}
+
+.body3 .content .part
+{
+    float: left;
+    margin: 60px;
+    width: 40%;
+    height: 100px;
+}
+
+.body3 .content .part i
+{
+    float: left;
+    height: 150px;
+    width: 60px;
+    font-size: 30px;
+    color: white;
+}
+
+.body3 .content .part h2
+{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.body3 .content .part p
+{
+    color: whitesmoke;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.body3 .content .part hr
+{
+    margin-top: 40px;
+}
+
+/*Contact*/
+.contact
+{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color: deeppink;
+    color: white;
+    padding-top: 50px;
+}
+.contact h2,h5
+{
+    padding: 10px;
+}
+
+.contact form .txt
+{
+    width: 500px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 10px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.contact form textarea
+{
+    height: 100px;
+    min-height: 100px;
+    max-height: 200px;
+    width: 500px;
+    max-width: 500px;
+    min-width: 500px;
+    margin: 10px;
+    padding: 10px 0 0 10px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact form input[type=submit]
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    background: deeppink;
+    font-size: 20px;
+    color: whitesmoke;
+    height: 50px;
+    width: 200px;
+    outline: none;
+}
+
+.footer
+{
+    width: 100%;
+    height: 80px;
+    background-color: #222;
+}
+
+.footer .content
+{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer .content i
+{
+    margin: 10px;
+}
+
+.footer .content i:hover
+{
+    cursor: pointer;
+    color: gainsboro;
+}
